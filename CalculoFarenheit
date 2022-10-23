@@ -1,0 +1,5 @@
+def TempFarenheit(tf):
+    tc = ((tf -32)*5/9)
+    print(f'{tf} graus farenheit em celsius equivale a {tc}')
+tf = float(input(' Digite a temperatura farenheit: '))
+print(TempFarenheit(tf))
