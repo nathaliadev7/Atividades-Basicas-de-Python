@@ -1,0 +1,10 @@
+media = 0
+def CalculoMedia(num):
+    soma = 0
+    for i in (1,num+1,1):
+        nota = float(input(' Digite a nota: '))
+        soma+=nota
+        media = soma/num
+    print(f'A média do aluno é de {media:.2f}')
+num = int(input(' Digite a quantidade de notas que gostaria de calcular: '))
+print(CalculoMedia(num))
