@@ -1,0 +1,7 @@
+#1. faca um algoritmo que diga se o elevador pode subir ou não:
+numdepessoas = int(input('Insira a quantidade de pessoas que vão usar o elevador: '))
+if (numdepessoas>10):
+
+print(' O elevador não pode subir')
+else:
+(print(' O elevador pode subir'))
