@@ -1,0 +1,7 @@
+def PositivoOuNegativo(n):
+    if n>=0:
+        return 'Positivo'
+    else:
+        return 'Negativo'
+n = int(input(' Digite n: '))
+print(PositivoOuNegativo(n))
