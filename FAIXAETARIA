@@ -1,7 +1,1 @@
-idade = int (input(&#39; Insira sua idade: &#39;))
-if (idade&lt;18):
-    print(&#39; É MENOR DE IDADE&#39;)
-elif(idade&gt;18 and idade&lt;=65):
-    print(&#39;É MAIOR DE IDADE&#39;)
-else:
-    print(&#39;É TERCEIRA IDADE&#39;)
+
