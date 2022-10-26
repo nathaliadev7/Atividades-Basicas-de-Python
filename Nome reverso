@@ -1,0 +1,5 @@
+def reversed (name):
+    nameInversed = (str(name)[::-1]);
+    return nameInversed
+name = input('Digite um nome:')
+print(reversed(name))
