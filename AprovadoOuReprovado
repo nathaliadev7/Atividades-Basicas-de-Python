@@ -1,0 +1,13 @@
+#Faça um algoritmo que calcule a média de um aluno que fez 3 provas e informe se ele foi aprovado ou reprovado:
+soma = 0
+media = 0
+for i in range(3):
+    nota = float(input('Digite a nota: '))
+    soma+=nota
+    media =soma/3
+if media>6:
+        print(f'Media = {media:.2f}')
+        print('Aprovado')
+else:
+        print(f'Media = {media:.2f}')
+        print('Reprovado')
