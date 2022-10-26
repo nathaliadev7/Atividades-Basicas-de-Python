@@ -1,0 +1,11 @@
+
+def Atividade(a,b,limite):
+    
+    if a+b > limite:
+        return True
+    else:
+        return False
+limite = int(input(' Digite o limite: '))
+a = int(input(' Digite a:'))
+b = int(input(' Digite b: '))
+print(Atividade(a,b,limite))
