@@ -1,0 +1,5 @@
+num = int(input('Insira um número: '))
+if(num%5==0):
+        print(f' {num} é divisível por cinco!')
+else:
+    print(f'{num} não é divisível por cinco!')
