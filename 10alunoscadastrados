@@ -1,0 +1,17 @@
+#Em uma turma há 10 alunos. Cada aluno tem 2 notas.  Um professor
+#precisa calcular a média das duas notas  de cada aluno. Crie um
+#programa que resolve este  problema.
+alunos = []
+medias = []
+media = 0
+def dezalunos():
+    for i in range(3):
+        aluno = input(' Digite o nome do aluno: ')
+        alunos.append(aluno)
+        nota1 = float(input('Digite a primeira nota: '))
+        nota2 = float(input(' Digite a segunda nota: '))
+        media = (nota1+nota2)/2
+        medias.append(media)
+    for i in range(3):
+        print(f' Aluno: {alunos[i]}; Media = {medias[i]}')
+print(dezalunos())
