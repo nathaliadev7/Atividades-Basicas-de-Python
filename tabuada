@@ -1,0 +1,21 @@
+#Tabuada com função
+
+def tabuada (num,operacao):
+
+    for i in range(1,10):
+
+        if operacao==1:
+            soma= num+i
+            print(f'{num} + {i} = {soma}')
+        elif operacao==2:
+            sub = num - i
+            print(f' {num} - {i} = {sub}')
+        elif operacao==3:
+            Mult = num * i
+            print(f' {num} X {i} = {Mult}')
+        else:
+            div = num / i
+            print(f' {num} / {i} = {div}')
+num = int(input(' Digite um numero: '))
+operacao = int(input(' Digite 1 para soma, 2 para subtracao, 3 para multiplicação, 4 para divisão: '))
+print(tabuada(num,operacao))
