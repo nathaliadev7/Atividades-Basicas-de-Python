@@ -1,0 +1,29 @@
+def assassino(ligacao,local,moradia,debito,trabalho):
+    soma =0
+    if ligacao == 1:
+        soma+=1
+    if local ==1:
+        soma+=1
+    if moradia==1:
+        soma+=1
+    if debito ==1: 
+        soma+=1
+    if trabalho ==1:
+        soma+=1
+    
+    
+    if soma==2:
+        print(f' Suspeita')
+    elif soma==3 or soma==4:
+        print('Cúmplice')
+    elif soma==5:
+        print('Assassino')
+    else:
+        print('inocente')
+print('Digite 1 para sim, 2 para não:')
+ligacao = int(input('Telefonou para a vítma: '))
+local = int(input(' Esteve no local do crime: '))
+moradia = int(input(' Mora perto da vitma: '))
+debito = int(input(' Devia alguma coisa a vitma: '))
+trabalho = int(input(' Já trabalhou com a vitma? '))
+print(assassino(ligacao,local,moradia,debito,trabalho))
