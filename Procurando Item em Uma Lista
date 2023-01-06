@@ -1,0 +1,8 @@
+randoNaLista(num_procurado):
+    numeros=[1,3,64,78,98,43,56,89,23,12,34,56,90]
+    if numeros.index(num_procurado):
+        print(f'Está na posição {numeros.index(num_procurado)}')
+    else:
+        print('Não encontrado!')
+num_procurado=int(input('Digite o numero que gostaria de procurar dentro da lista: '))
+print(ProcurandoNaLista(num_procurado)) 
