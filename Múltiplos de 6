@@ -1,0 +1,12 @@
+#Faça um programa que armazene 8 números em uma lista e imprima todos os números. Ao final, imprima o total de números múltiplos de seis. 
+
+
+lista=[]
+cont=0
+for i in range(8):
+    num=int(input('Digite um numero: '))
+    lista.append(num)
+    if(num%6==0):
+        cont+=1
+        
+print(f' No total, {cont} dos numeros digitados são multiplos de 6')
