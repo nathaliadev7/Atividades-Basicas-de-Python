@@ -1,0 +1,11 @@
+#Faça um programa que armazene 10 letras em uma lista e imprima uma listagem numerada.
+
+palavra=[]
+
+for i in range(10):
+    letra=input('Digite uma letra: ')
+    palavra.append(letra)
+for i in palavra:
+    
+    
+ print(f'{palavra.index(i)};{i}')  
