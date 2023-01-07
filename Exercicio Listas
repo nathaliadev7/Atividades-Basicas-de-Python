@@ -1,0 +1,13 @@
+#Faça um programa que armazene 15 números inteiros em um vetor e depois permita que o usuário digite um número inteiro para ser buscado no vetor, se for encontrado o programa deve imprimir a posição desse número no vetor, caso contrário, deve imprimir a mensagem: "Nao encontrado!".
+
+
+numeros=[]
+for i in range(15):
+    num=int(input('Digite um numero: '))
+    numeros.append(num)
+    
+numero_procurado=int(input('Digite o numero que gostaria de procurar dentro da lista: '))
+if numeros.count(numero_procurado)==True:
+    print(f' O numero {numero_procurado} esrá na posição {numeros.index(numero_procurado)} da lista')
+else:
+    print('Não encontrado')
