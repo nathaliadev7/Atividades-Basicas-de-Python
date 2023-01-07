@@ -1,0 +1,9 @@
+#Ler uma lista de 15 números inteiros e mostre cada número juntamente com a sua posição na lista. 
+numeros=[]
+for i in range(15):
+        num=int(input('Digite o numero: '))
+        numeros.append(num)
+for i in numeros:
+        
+        
+ print(f'Posição na lista: {numeros.index(i)} ; Item da lista= {i}')
