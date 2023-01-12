@@ -1,0 +1,11 @@
+'''4°: Escreva um programa que recebe inteiro e mostra os números pares e ímpares (separados), de 1 até esse inteiro.'''
+numero_final=int(input('Digiteo numero final: '))
+pares=[]
+impares=[]
+for i in range(0,numero_final+1):
+    if i%2==0:
+        pares.append(i)
+    else:
+        impares.append(i)
+print(pares)
+print(impares)
