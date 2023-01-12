@@ -1,0 +1,15 @@
+'''5°: Escreva um programa que lê o tamanho do lado de um quadrado e imprime um quadrado daquele tamanho com asteriscos. Seu programa deve usar laços de repetição e funcionar para quadrados com lados de todos os tamanhos entre 1 e 20.
+Por exemplo, para lado igual a 5:
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+'''
+
+lado_do_quadrado=int(input('Digite o lado dos quadrados entre 1 e 20: '))
+while lado_do_quadrado<1 or lado_do_quadrado>20:
+    print('Valor não suportado para quadrado, tente novamente!')
+    lado_do_quadrado=int(input('Digite o lado dos quadrados entre 1 e 20: '))
+for i in range(lado_do_quadrado):
+    print(f'*'*lado_do_quadrado)
