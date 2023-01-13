@@ -1,0 +1,13 @@
+'''1°: Faça uma função que recebe por parâmetro o tempo de duração de uma fábrica expressa em segundos e retorna também por parâmetro esse tempo em horas, minutos e segundos.
+'''
+def Time():
+    tempo_de_duração_da_fabrica=float(input('Digite o tempo de duração de uma fabrica expressa em segundos: '))
+    escolha=int(input('1. Ver tempo em minutos,2.Ver tempo em horas: '))
+    if escolha==1:
+        tempo_em_minutos=tempo_de_duração_da_fabrica/60
+        print(f'O tempo deduração da fábrica expressa em minutos é de {tempo_em_minutos:.1f} minutos')
+    else:
+        tempo_em_horas=tempo_de_duração_da_fabrica/3600
+        
+        print(f'O tempo de duração da fabrica em horas equivale a {tempo_em_horas:.2f} horas')
+print(Time())
