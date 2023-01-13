@@ -1,0 +1,12 @@
+'''5°: Leia uma lista de 20 posições e atribua valor 0 para todos os elementos que possuírem valores negativos.
+'''
+lista=[]
+for i in range(5):
+    NUM=int(input('Digite um numero: '))
+    lista.append(NUM)
+    for i in lista:
+        if i<0:
+            posicao=lista.index(i)
+            lista.pop(posicao)
+            lista.append(0)
+print(lista)
