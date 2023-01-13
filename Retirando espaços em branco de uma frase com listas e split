@@ -1,0 +1,13 @@
+'''6°: Leia uma lista contendo letras de uma frase inclusive os espaços em branco. Retirar os espaços em branco do lista e depois escreve-los.
+'''
+cont=0
+lista=[]
+frase=input('Digite sua frase: ')
+for i in frase:
+    if i==' ':
+        cont+=1
+f=frase.split()
+lista.append(f)
+        
+print(cont)
+print(lista)
