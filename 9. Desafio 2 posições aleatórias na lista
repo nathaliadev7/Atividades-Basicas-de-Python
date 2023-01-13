@@ -1,0 +1,17 @@
+'''1°: Leia uma lista de 12 posições e em seguida ler também dois valores X e Y quaisquer correspondentes a duas posições na lista. Ao final seu programa deverá escrever a soma dos valores encontrados nas respectivas posições X e Y.'''
+from random import randint
+lista=[34,67,93652,12,56,908,1000,23,45,266,2456,10,20]
+
+x=int(input('Digite um número entre 0 e 12: '))
+y=int(input('Digiteum numero entre 0 e 12: '))    
+while x<0 or x>12:
+    print('O X precisa ser entre 0 e 12. Tente novamente!')
+    x =int(input('Digiteum numero entre 0 e 12: '))  
+while y<0 or y>12:
+    print('O Y precisa ser entre 0 e 12. Tente novamente!')
+  
+    y=int(input('Digiteum numero entre 0 e 12: '))  
+    
+    
+soma=lista[x]+lista[y]  
+print(soma)
