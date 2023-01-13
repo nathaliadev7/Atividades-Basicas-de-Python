@@ -1,0 +1,31 @@
+'''1°: Crie um dicionario que recebera como chave nome de 5 alunos, e os valores será calculados com uma media de tres notas.'''
+import pandas as pd
+
+
+
+dict={}
+nomes=[]
+nota_1=[]
+nota_2=[]
+nota_3=[]
+medias=[]
+for i in range(2):
+    nome=input('Digite o nome do aluno: ')
+    nota1=float(input(f'Digite a primeira nota de {nome}: '))
+    nota2=float(input(f'Digite a segunda nota de {nome}: '))
+    nota3=float(input(f'Digite a terceira nota de {nome}:'))
+    media=(nota1+nota2+nota3)/3
+    nomes.append(nome)
+    nota_1.append(nota1)
+    nota_2.append(nota2)
+    nota_3.append(nota3)
+    medias.append(media)
+dict={'Nomes': nomes,
+      'Primeira Nota': nota_1,
+      'Segunda Nota':nota_2,
+      'Terceira Nota':nota_3,
+      'Media': medias
+}    
+    
+tabela=pd.DataFrame(dict)
+print(tabela)
