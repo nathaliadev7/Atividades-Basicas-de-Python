@@ -1,0 +1,13 @@
+person = {}
+
+QTD=int(input('coloque o numero q quer de contatos: '))
+for i in range(QTD): 
+
+   number = int(input("Please enter a number: "))
+   name = input("Please enter a name: ")
+   person[name] = number
+
+print(person)
+
+procurado=input('Digite o nome de quem voce quer procurar: ')
+print(person[procurado])
