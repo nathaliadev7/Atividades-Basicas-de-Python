@@ -1,0 +1,15 @@
+"""Crie um programa que armazena um grupo de 3 pessoas contendo o número de telefone de cada uma e a idade de cada uma e depois mostre todas as informações e a informação apenas de uma pessoa."""
+person = {}
+
+
+for i in range(3): 
+
+   number = input("Please enter a number: ")
+   idade = input("Please enter a idade: ")
+   person[idade] = number
+
+print(person)
+
+
+primo = person.get('2')
+print(primo)
