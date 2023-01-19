@@ -1,0 +1,14 @@
+'''Faça uma função que informe a quantidade de caracteres de uma frase informada por parâmetro.
+'''
+
+def phrase(frase):
+    cont=0
+    cont_espaços=0
+    for i in frase:
+        if i==' ':
+            cont_espaços+=1
+        else:
+            cont+=1
+    return f' Tem {cont} cracteres e {cont_espaços} espaços'
+frase=input('Digite uma frase: ')
+print(phrase(frase))
