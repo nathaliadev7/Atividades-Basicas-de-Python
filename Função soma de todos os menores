@@ -1,0 +1,10 @@
+'''Escreva uma função que recebe como entrada um número inteiro positivo
+n e retorne a soma de todos os inteiros positivos menores ou iguais a n.
+'''
+numeros=[]
+def inteiro(n):
+    for i in range(1,n+1):
+        numeros.append(i)
+    return sum(numeros)   
+n=int(input('Digite o numero final: '))
+print(inteiro(n))
