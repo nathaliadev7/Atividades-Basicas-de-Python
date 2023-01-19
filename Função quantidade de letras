@@ -1,0 +1,19 @@
+nomes=[]
+letras=['a','e','i','o','u']
+def vogais():
+    cont=0
+
+    nome=(input('Digite seu nome: '))
+    for i in nome:
+        if i=='a':
+            cont+=1
+        elif i=='e':
+            cont+1
+        elif i=='i':
+            cont+=1
+        elif i=='o':
+            cont+=1
+        elif i=='u':
+            cont+=1
+    return(cont)
+print(vogais())
