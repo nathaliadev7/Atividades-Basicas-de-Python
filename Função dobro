@@ -1,0 +1,19 @@
+'''programa que leia três números e, para cada um, imprimir o dobro. O cálculo deverá
+ser realizado por uma função e o resultado impresso ao final do programa.
+'''
+numeros=[]
+def funcoes():
+
+        num=int(input('Digite um número: '))
+        num2=int(input('Digite um número: '))
+        num3=int(input('Digite um numero: '))
+        
+        dobro=num*2
+        dobro2=num2*2
+        dobro21=num3*2
+        
+        return dobro, dobro2, dobro21
+
+    
+print(funcoes())
+        
